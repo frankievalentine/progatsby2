@@ -1,10 +1,10 @@
 ---
-slug: "/first-post"
-date: "2018-12-3"
-title: "Our First Post"
+slug: "/third-post"
+date: "2018-12-18"
+title: "Third Post"
 ---
 
-# Hello
+# Sup
 
 Bacon ipsum dolor amet landjaeger buffalo pork pancetta ground round jowl, turkey sausage flank bacon boudin pork loin. Pork loin landjaeger kevin cow turkey bresaola. Short ribs salami pork belly turducken short loin, tri-tip burgdoggen leberkas spare ribs. Filet mignon chuck short loin, corned beef frankfurter ribeye landjaeger tenderloin andouille boudin tongue pork loin tri-tip bresaola. Shoulder leberkas buffalo spare ribs cow jerky pork beef, doner ham hock hamburger venison burgdoggen meatloaf turducken.
 
