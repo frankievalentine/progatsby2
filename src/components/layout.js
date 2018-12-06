@@ -16,7 +16,7 @@ const MainLayout = styled.main`
   grid-gap: 40px;
 `
 
-const Layout = ({ children }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
