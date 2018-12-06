@@ -1,23 +1,27 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import styled from 'styled-components'
 
-import gatsbyLogo from '../images/gatsby-icon.png'
+import logo from '../images/supreme.png'
+
+const HeaderWrapper = styled.div`
+  background: #524763;
+  margin-bottom: 1.45rem;
+  img {
+    margin-bottom: 0;
+  }
+`
+
+const HeaderContainer = styled.div`
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0.5rem;
+`
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
+  <HeaderWrapper>
+    <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -26,13 +30,17 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          <img style={{
-            width: '100px',
-          }} src={gatsbyLogo} alt="Gatsby Logo"/>
+          <img
+            style={{
+              width: '100px',
+            }}
+            src={logo}
+            alt="Supreme"
+          />
         </Link>
       </h1>
-    </div>
-  </div>
+    </HeaderContainer>
+  </HeaderWrapper>
 )
 
 Header.propTypes = {
