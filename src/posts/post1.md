@@ -1,6 +1,6 @@
 ---
 slug: "/first-post"
-date: "2018-12-3"
+date: "2018-10-03"
 title: "Our First Post"
 ---
 
